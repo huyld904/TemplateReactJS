@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+
+.loginModule {
+  position: relative;
+  width: 388px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 10% auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.loginModule img {
+  text-align: center;
+  margin: 40px auto;
+}
+.loginModule input {
+  background: white;
+  border-radius: 0;
+  width: 100%;
+}
+.loginModule input .MuiInput-underline:after {
+  borderBottomColor: "green";
+}
+.loginModule .btnLogin {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.loginModule .btnLogin button {
+  background-color: blue;
+  padding: 8px 40px;
+  text-transform: uppercase;
+  float: right;
+  color: white;
+  font-size: 14px;
+}/*# sourceMappingURL=LoginForm.css.map */
